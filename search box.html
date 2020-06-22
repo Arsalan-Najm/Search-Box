@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="C:/Users/Arsalan-Najm/Desktop/Web Designing Tutorials/All tests/font-awesome/css/font-awesome.css">
+
+<style type="text/css">
+body{
+margin:0;
+padding:0;
+background:#e84118;
+}
+.search-box{
+position: absolute;
+top:50%;
+left:50%;
+-webkit-transform:translate(-50%,-50%);
+background:#2f3640;
+height:40px;
+border-radius:40px;
+padding:10px;
+}
+.search-btn{
+color: #e84118;
+float:left;
+width:40px;
+height:40px;
+border-radius:50%;
+background:#2f3640;
+display:inline-flex;
+justify-content:center;
+align-items:center;
+text-decoration:none;
+-webkit-transition:0.4s;
+font-size:18px
+}
+.search-text{
+border:none;
+outline:none;
+background:none;
+float:left;
+padding: 0;
+color:#fff;
+font-size:16px;
+-webkit-transition:0.4s;
+line-height:40px;
+width:0px;
+}
+.search-box:hover > .search-text{
+width:240px;
+padding:0 6px;
+}
+.search-box:hover > .search-btn{
+color:#fff;
+font-size:18px;
+}
+.search-box:hover > .search-btn:hover{
+color:#fff;
+font-size:18px;
+-webkit-transform:scale(1.2);
+}
+</style>
+</head>
+<body>
+<div class="search-box">
+<input type="text" placeholder="Type to search" class="search-text">
+<a class="search-btn" href="#">
+<span class=" fa fa-search"></span>
+</a>
+</div>
+</body>
+</html>
